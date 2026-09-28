@@ -1,0 +1,8 @@
+spring.application.name=inventory-service
+server.port=9021
+server.servlet.context-path=/inventory
+
+spring.sql.init.mode=always
+spring.sql.init.data-locations=classpath:data.sql
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
